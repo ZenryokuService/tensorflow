@@ -96,3 +96,5 @@ plt.ylabel('Loss')
 plt.legend()
 
 plt.show()
+
+print(model.predict(train_data[0]))
